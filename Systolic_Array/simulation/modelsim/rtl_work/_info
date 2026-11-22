@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/EE224_Project/Systolic_Array/simulation/modelsim
+vPE
+!s110 1795290201
+!i10b 1
+!s100 BkC7g951K4G:mCIUl<H101
+IJlaKAdILzJgL6z_<fLna41
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1795283373
+8E:/EE224_Project/Systolic_Array/PE.v
+FE:/EE224_Project/Systolic_Array/PE.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1795290201.000000
+!s107 E:/EE224_Project/Systolic_Array/PE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/EE224_Project/Systolic_Array|E:/EE224_Project/Systolic_Array/PE.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+E:/EE224_Project/Systolic_Array
+Z6 tCvgOpt 0
+n@p@e
+vSystolic_Array
+Z7 !s110 1795290202
+!i10b 1
+!s100 cH_OLd@HO0X<O2YaF_PFg0
+IWaQhBgzERU^[:U8Eo=W_D0
+R1
+R0
+w1795284850
+8E:/EE224_Project/Systolic_Array/Systolic_Array.v
+FE:/EE224_Project/Systolic_Array/Systolic_Array.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 E:/EE224_Project/Systolic_Array/Systolic_Array.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/EE224_Project/Systolic_Array|E:/EE224_Project/Systolic_Array/Systolic_Array.v|
+!i113 1
+R4
+R5
+R6
+n@systolic_@array
+vtb_Systolic_Array_4X8
+R7
+!i10b 1
+!s100 W9_TURH>j_P>cEdCVdT3`3
+IJ_cz;>YHS=<gNSeZSVNi92
+R1
+R0
+w1795288608
+8E:/EE224_Project/Systolic_Array/tb_Systolic_Array_4X8.v
+FE:/EE224_Project/Systolic_Array/tb_Systolic_Array_4X8.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1795290202.000000
+!s107 E:/EE224_Project/Systolic_Array/tb_Systolic_Array_4X8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/EE224_Project/Systolic_Array|E:/EE224_Project/Systolic_Array/tb_Systolic_Array_4X8.v|
+!i113 1
+R4
+R5
+R6
+ntb_@systolic_@array_4@x8

@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Nov 22 00:47:24 2026
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Systolic_Array
+Top-level Entity Name : Systolic_Array
+Family : MAX 10
+Total logic elements : 896
+    Total combinational functions : 512
+    Dedicated logic registers : 896
+Total registers : 896
+Total pins : 642
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 32
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
