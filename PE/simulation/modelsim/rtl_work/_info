@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/EE224_Project/PE/simulation/modelsim
+vPE
+!s110 1795259358
+!i10b 1
+!s100 BkC7g951K4G:mCIUl<H101
+IaKg23DI>HoQmMMgMilJC81
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1795259278
+8E:/EE224_Project/PE/PE.v
+FE:/EE224_Project/PE/PE.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1795259358.000000
+!s107 E:/EE224_Project/PE/PE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/EE224_Project/PE|E:/EE224_Project/PE/PE.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+E:/EE224_Project/PE
+Z6 tCvgOpt 0
+n@p@e
+vtb_PE
+!s110 1795259359
+!i10b 1
+!s100 [_zPeeFZTB2@D[YjL2e2h0
+I7hI1c7J^M[BYPLR485;UQ3
+R1
+R0
+w1795259280
+8E:/EE224_Project/PE/tb_PE.v
+FE:/EE224_Project/PE/tb_PE.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 E:/EE224_Project/PE/tb_PE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/EE224_Project/PE|E:/EE224_Project/PE/tb_PE.v|
+!i113 1
+R4
+R5
+R6
+ntb_@p@e

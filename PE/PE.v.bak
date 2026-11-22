@@ -1,0 +1,19 @@
+module PE #(parameter bit = 16) (rst,clk,ain,bin,aout,bout,cout);
+input rst,clk;
+input [15:0] ain, bin;
+output reg [15:0] aout, bout;
+output reg [31:0] cout;
+
+always @(posedge clk,posedge rst) 
+if(rst) begin
+aout <= 15'b0;
+bout <= 15'b0;
+cout <= 31'b0;
+end
+else begin
+aout <= ain;
+bout <= bin;
+cout <= cout + ain*bin;
+end
+
+endmodule
