@@ -1,0 +1,27 @@
+module tb_Systolic_Array();
+reg clk,rst;
+reg [15:0] row;
+reg [15:0] column;
+wire [127:0] out;
+
+Systolic_Array #(4,4,4,8) sa(clk,rst,row,column,out);
+
+always begin
+clk=0;#5;
+clk=1;#5;
+end
+
+initial begin
+rst=1;row=0;column=0;#1;
+rst=0;#13;
+row=16'b0000_0000_0000_0110;column=16'b0000_0000_0000_0001;#10;
+row=16'b0000_0000_0010_0011;column=16'b0000_0000_0010_0100;#10;
+row=16'b0000_0010_0011_0111;column=16'b0000_1000_0111_0110;#10;
+row=16'b1001_1010_0001_0110;column=16'b0101_0101_0001_0001;#10;
+row=16'b0001_0110_1000_0000;column=16'b0100_1110_0001_0000;#10;
+row=16'b0011_0100_0000_0000;column=16'b1100_0000_0000_0000;#10;
+row=16'b0011_0000_0000_0000;column=16'b1011_0000_0000_0000;#10;
+row=16'b0000_0000_0000_0000;column=16'b0000_0000_0000_0000;#10;
+end
+
+endmodule

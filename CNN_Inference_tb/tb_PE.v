@@ -1,0 +1,23 @@
+module tb_PE();
+reg rst, clk;
+reg [3:0] ain, bin;
+wire [3:0] aout, bout;
+wire [7:0] cout;
+
+PE #(4,8) p(rst,clk,ain,bin,aout,bout,cout);
+
+always begin
+clk=0;#5;
+clk=1;#5;
+end
+
+initial begin
+rst=1;ain=0;bin=0;#1;
+rst=0;ain=5;bin=5;#10;
+ain=2;bin=3;#10;
+ain=6;bin=9;#10;
+ain=10;bin=8;#14;
+rst=1;
+end
+
+endmodule 
